@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    color: white;
+    background-image: url("https://images.wallpaperscraft.com/image/ocean_sea_top_view_132891_1920x1080.jpg");
+    height: 100px;
+    justify-items: center;
+}
+
+header p{
+    grid-column: 4/6;
+}
+
+header img{
+    width: 5rem;
+    height: 5rem;
+    grid-column: 1;
+    margin: .6rem .5rem !important;
+}
+
+header h1{
+    grid-column: 2/3;
+    font-size: 3rem;
+    margin-top: .8rem !important;
+    text-align: center;
+}
+
+
+#hButtons button{
+    display: flexbox;
+    background-color: #333333;
+    margin: .5rem .3rem;
+    float: right;
+    font-size: 1rem;
+    border-radius: 1.3rem;
+    width: 5.5rem;
+    height: 1.5rem;
+}
+
+button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button:hover{
+    filter: brightness(125%);
+}
+
+button:active{
+    filter: brightness(50%)
+}
+
+
+footer{
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*Shop Content*/
+
+.form-control__button:hover{
+   background-color:  #7614CF!important;
+}
+
+/*Contacts */
+
+input{
+    border-color: #333333;
+}
+input[type=text], input[type=email], textarea{
+    border: #838383 1px solid
+}
+
+
+#submit{
+    display: flexbox;
+    background-color: #333333;
+    color: white;
+    margin: .5rem .3rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    width: 6rem;
+    height: 4rem;
+}
